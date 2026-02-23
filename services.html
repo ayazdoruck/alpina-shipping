@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hizmetlerimiz | Alpina Denizcilik</title>
+    <link rel="icon" type="image/png" href="images/logo_mini.png">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="nav-upper">
+                <a href="index.html" class="logo">
+                    <img src="images/alpina_logo2.png">
+                </a>
+
+                <button class="menu-toggle" aria-label="Menu">
+                    <i data-lucide="menu"></i>
+                </button>
+
+                <nav class="nav-menu">
+                    <div class="nav-header-mobile">
+                        <img src="images/logo_mini.png" alt="Logo">
+                        <button class="menu-close"><i data-lucide="x"></i></button>
+                    </div>
+                    <a href="index.html" class="nav-item">
+                        <i data-lucide="home"></i>
+                        <span data-i18n="nav_home">Ana Sayfa</span>
+                    </a>
+                    <a href="services.html" class="nav-item active">
+                        <i data-lucide="anchor"></i>
+                        <span data-i18n="nav_services">Hizmetler</span>
+                    </a>
+                    <a href="reports.html" class="nav-item">
+                        <i data-lucide="line-chart"></i>
+                        <span data-i18n="nav_reports">Market Raporları</span>
+                    </a>
+                    <a href="team.html" class="nav-item">
+                        <i data-lucide="users"></i>
+                        <span data-i18n="nav_team">Ekibimiz</span>
+                    </a>
+                    <a href="contact.html" class="nav-item">
+                        <i data-lucide="mail"></i>
+                        <span data-i18n="nav_contact">İletişim</span>
+                    </a>
+                    <div class="lang-switch">
+                        <i data-lucide="globe"></i> EN
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-intro services-intro">
+            <div class="container">
+                <span class="section-label" data-i18n="nav_services">HİZMETLER</span>
+                <h1 class="section-title" data-i18n="services_page_title">Profesyonel Brokerlik Hizmetleri</h1>
+                <p data-i18n="services_page_desc">Denizcilik sektörünün her alanında profesyonel brokerlik ve
+                    danışmanlık hizmeti sunuyoruz.</p>
+            </div>
+        </section>
+
+        <!-- Service Detail Sections with Animations -->
+        <section class="section">
+            <div class="container">
+
+                <!-- Yeni İnşa -->
+                <div class="service-detail-block reveal" id="yeni-insa">
+                    <div class="content-box">
+                        <h2 data-i18n="service_newbuild_title">Yeni İnşa</h2>
+                        <p data-i18n="service_newbuild_desc">Türkiye ve Uzak Doğu tersanelerinde stratejik sipariş
+                            yönetimi. Tasarım aşamasından teslimata kadar tüm süreçte sizinleyiz.</p>
+                        <ul class="service-list">
+                            <li><i data-lucide="check-circle"></i> <span data-i18n="list_nb_1">Tersane Seçimi &
+                                    Değerlendirme</span></li>
+                            <li><i data-lucide="check-circle"></i> <span data-i18n="list_nb_2">Kontrat
+                                    Müzakereleri</span></li>
+                            <li><i data-lucide="check-circle"></i> <span data-i18n="list_nb_3">Teknik Şartname
+                                    İncelemesi</span></li>
+                        </ul>
+                    </div>
+                    <div class="image-box">
+                        <img src="images/ship-images/ship02.jpg" alt="Yeni İnşa">
+                    </div>
+                </div>
+
+                <!-- İkinci El -->
+                <div class="service-detail-block reveal" id="ikinci-el">
+                    <div class="content-box">
+                        <h2 data-i18n="service_secondhand_title">İkinci El Alım-Satım</h2>
+                        <p data-i18n="service_secondhand_desc">Tanker, Kuru Yük ve Konteyner gemilerinde aktif alım
+                            satım hizmetleri sunuyoruz.</p>
+                        <ul class="service-list">
+                            <li><i data-lucide="check-circle"></i> <span data-i18n="list_sh_1">Pazar Analizi &
+                                    Değerleme</span></li>
+                            <li><i data-lucide="check-circle"></i> <span data-i18n="list_sh_2">Sörvey
+                                    Organizasyonu</span></li>
+                            <li><i data-lucide="check-circle"></i> <span data-i18n="list_sh_3">MOA Hazırlığı &
+                                    Kapanış</span></li>
+                        </ul>
+                    </div>
+                    <div class="image-box">
+                        <img src="images/ship-images/ship01.jpg" alt="Second Hand">
+                    </div>
+                </div>
+
+                <!-- Hurda -->
+                <div class="service-detail-block reveal" id="hurda">
+                    <div class="content-box">
+                        <h2 data-i18n="service_scrap_title">Gemi Geri Dönüşüm</h2>
+                        <p data-i18n="service_scrap_desc">Çevre dostu söküm tesislerine güvenli ve kârlı satış aracılığı
+                            sağlıyoruz.</p>
+                        <ul class="service-list">
+                            <li><i data-lucide="check-circle"></i> <span data-i18n="list_sc_1">Yeşil Geri Dönüşüm
+                                    Danışmanlığı</span></li>
+                            <li><i data-lucide="check-circle"></i> <span data-i18n="list_sc_2">IHM Envanter
+                                    Yönetimi</span></li>
+                            <li><i data-lucide="check-circle"></i> <span data-i18n="list_sc_3">Lojistik Planlama</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="image-box">
+                        <img src="images/ship-images/ship03.jpg" alt="Recycling">
+                    </div>
+                </div>
+
+                <!-- Kiralama -->
+                <div class="service-detail-block reveal" id="kiralama">
+                    <div class="content-box">
+                        <h2 data-i18n="service_chartering_title">Kiralama & Proje</h2>
+                        <p data-i18n="service_chartering_desc">Uzun dönem kiralama ve denizcilik odaklı özel proje
+                            yönetimi konusundaki uzmanlığımızla yanınızdayız.</p>
+                        <ul class="service-list">
+                            <li><i data-lucide="check-circle"></i> <span data-i18n="list_ch_1">Zaman Esaslı (Time
+                                    Charter) Kiralama</span></li>
+                            <li><i data-lucide="check-circle"></i> <span data-i18n="list_ch_2">Sefer Esaslı (Voyage)
+                                    Kiralama</span></li>
+                            <li><i data-lucide="check-circle"></i> <span data-i18n="list_ch_3">Özel Proje
+                                    Taşımacılığı</span></li>
+                        </ul>
+                    </div>
+                    <div class="image-box">
+                        <img src="images/ship-images/ship04.jpg" alt="Chartering">
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    <img src="images/alpina_logo2.png" alt="Alpina Mini"
+                        style="height: 40px; margin-bottom: 30px; filter: brightness(0) invert(1);">
+                    <p style="opacity: 0.5; font-size: 14px; line-height: 1.8;" data-i18n="footer_desc">1983'ten beri
+                        Türk ve uluslararası denizcilik piyasalarında güven ve tecrübe ile hizmet vermekteyiz.</p>
+                </div>
+                <div>
+                    <h4 data-i18n="footer_services">Hizmetlerimiz</h4>
+                    <ul class="footer-links">
+                        <li><a href="services.html#yeni-insa" data-i18n="service_newbuild_title">Yeni İnşa</a></li>
+                        <li><a href="services.html#ikinci-el" data-i18n="service_secondhand_title">İkinci El
+                                Alım-Satım</a></li>
+                        <li><a href="services.html#hurda" data-i18n="service_scrap_title">Gemi Geri Dönüşüm</a></li>
+                        <li><a href="services.html#kiralama" data-i18n="service_chartering_title">Kiralama & Proje</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 data-i18n="footer_contact">İletişim Bilgileri</h4>
+                    <ul class="footer-contact-info">
+                        <li>
+                            <i data-lucide="map-pin"></i>
+                            <span>Seba Central, Kağıthane, İstanbul</span>
+                        </li>
+                        <li>
+                            <i data-lucide="phone"></i>
+                            <span>+90 212 320 15 70</span>
+                        </li>
+                        <li>
+                            <i data-lucide="mail"></i>
+                            <span>alpina@alpinashipping.com</span>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 data-i18n="footer_quickmenu">Hızlı Menü</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html" data-i18n="nav_home">Ana Sayfa</a></li>
+                        <li><a href="reports.html" data-i18n="nav_reports">Market Raporları</a></li>
+                        <li><a href="team.html" data-i18n="nav_team">Ekibimiz</a></li>
+                        <li><a href="contact.html" data-i18n="nav_contact">İletişim</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright" data-i18n="copyright">
+                &copy; 2026 Alpina Denizcilik ve Ticaret Ltd. Şti. Tüm hakları saklıdır.
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="js/i18n.js"></script>
+    <script>lucide.createIcons();</script>
+</body>
+
+</html>

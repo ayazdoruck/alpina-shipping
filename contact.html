@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İletişim | Alpina Denizcilik</title>
+    <link rel="icon" type="image/png" href="images/logo_mini.png">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="nav-upper">
+                <a href="index.html" class="logo">
+                    <img src="images/alpina_logo2.png" alt="Alpina Shipping">
+                </a>
+
+                <button class="menu-toggle" aria-label="Menu">
+                    <i data-lucide="menu"></i>
+                </button>
+
+                <nav class="nav-menu">
+                    <div class="nav-header-mobile">
+                        <img src="images/logo_mini.png" alt="Logo">
+                        <button class="menu-close"><i data-lucide="x"></i></button>
+                    </div>
+                    <a href="index.html" class="nav-item">
+                        <i data-lucide="home"></i>
+                        <span data-i18n="nav_home">Ana Sayfa</span>
+                    </a>
+                    <a href="services.html" class="nav-item">
+                        <i data-lucide="anchor"></i>
+                        <span data-i18n="nav_services">Hizmetler</span>
+                    </a>
+                    <a href="reports.html" class="nav-item">
+                        <i data-lucide="line-chart"></i>
+                        <span data-i18n="nav_reports">Market Raporları</span>
+                    </a>
+                    <a href="team.html" class="nav-item">
+                        <i data-lucide="users"></i>
+                        <span data-i18n="nav_team">Ekibimiz</span>
+                    </a>
+                    <a href="contact.html" class="nav-item active">
+                        <i data-lucide="mail"></i>
+                        <span data-i18n="nav_contact">İletişim</span>
+                    </a>
+                    <div class="lang-switch">
+                        <i data-lucide="globe"></i> EN
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Map Section -->
+        <section class="contact-map-container">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5057.362701365491!2d28.98340943414636!3d41.08809675313669!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cabbf5f894d77b%3A0xef28311c2ef9c2b!2sAlpina%20Shipping%20and%20Trading%20Co.%20Ltd.!5e0!3m2!1str!2sus!4v1771877030502!5m2!1str!2sus"
+                allowfullscreen="" loading="lazy">
+            </iframe>
+        </section>
+
+        <!-- Blue Title Bar -->
+        <div class="contact-title-bar">
+            <div class="container">
+                <h2 data-i18n="nav_contact">İletişim</h2>
+            </div>
+        </div>
+
+        <!-- Contact Content Grid -->
+        <section class="contact-section">
+            <div class="contact-world-mask"></div>
+            <div class="container">
+                <div class="contact-grid">
+                    <!-- Info Side -->
+                    <div class="contact-info-box reveal">
+                        <h1>Alpina Denizcilik ve Tic. Ltd. Şti.</h1>
+                        <p class="contact-intro" data-i18n="contact_page_desc">Bizleri İstanbul - Avrupa yakasında
+                            aşağıdaki adreste bulunan ofisimizde ziyaret edebilirsiniz...</p>
+
+                        <div class="info-list">
+                            <div class="info-item">
+                                <i data-lucide="map-pin"></i>
+                                <div class="info-text">
+                                    <label data-i18n="contact_address_label">Adres</label>
+                                    <p>Hamidiye Mah. Cendere Cad. Seba Central, A Blok, No: 21 Kat: 8 Kagithane 34408
+                                        Istanbul Türkiye</p>
+                                </div>
+                            </div>
+
+                            <div class="info-item">
+                                <i data-lucide="phone"></i>
+                                <div class="info-text">
+                                    <label data-i18n="contact_phone_label">Telefon</label>
+                                    <a href="tel:+902123201570">+90 212 320 15 70</a>
+                                </div>
+                            </div>
+
+                            <div class="info-item">
+                                <i data-lucide="printer"></i>
+                                <div class="info-text">
+                                    <label data-i18n="contact_fax_label">Faks</label>
+                                    <p>+90 212 320 15 71</p>
+                                </div>
+                            </div>
+
+                            <div class="info-item">
+                                <i data-lucide="mail"></i>
+                                <div class="info-text">
+                                    <label data-i18n="contact_email_label">E-posta</label>
+                                    <a href="mailto:alpina@alpinashipping.com">alpina@alpinashipping.com</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Form Side -->
+                    <div class="contact-form-side reveal">
+                        <div class="contact-form-card">
+                            <form action="#">
+                                <div class="form-group">
+                                    <label data-i18n="contact_form_name">Adınız Soyadınız</label>
+                                    <input type="text" data-i18n-placeholder="contact_form_placeholder_name"
+                                        placeholder="Örn: Ahmet Yılmaz" required>
+                                </div>
+                                <div class="form-group">
+                                    <label data-i18n="contact_form_email">E-posta Adresiniz</label>
+                                    <input type="email" data-i18n-placeholder="contact_form_placeholder_email"
+                                        placeholder="orn@sirket.com" required>
+                                </div>
+                                <div class="form-group">
+                                    <label data-i18n="contact_form_message">Mesajınız</label>
+                                    <textarea rows="5" data-i18n-placeholder="contact_form_placeholder_message"
+                                        placeholder="Size nasıl yardımcı olabiliriz?" required></textarea>
+                                </div>
+                                <button type="submit" class="submit-btn" data-i18n="contact_form_send">Mesajı
+                                    Gönder</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    <img src="images/alpina_logo2.png" alt="Alpina Mini"
+                        style="height: 40px; margin-bottom: 30px; filter: brightness(0) invert(1);">
+                    <p style="opacity: 0.5; font-size: 14px; line-height: 1.8;" data-i18n="footer_desc">1983'ten beri
+                        Türk ve uluslararası denizcilik piyasalarında güven ve tecrübe ile hizmet vermekteyiz.</p>
+                </div>
+                <div>
+                    <h4 data-i18n="footer_services">Hizmetlerimiz</h4>
+                    <ul class="footer-links">
+                        <li><a href="services.html#yeni-insa" data-i18n="service_newbuild_title">Yeni İnşa</a></li>
+                        <li><a href="services.html#ikinci-el" data-i18n="service_secondhand_title">İkinci El
+                                Alım-Satım</a></li>
+                        <li><a href="services.html#hurda" data-i18n="service_scrap_title">Gemi Geri Dönüşüm</a></li>
+                        <li><a href="services.html#kiralama" data-i18n="service_chartering_title">Kiralama & Proje</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 data-i18n="footer_contact">İletişim Bilgileri</h4>
+                    <ul class="footer-contact-info">
+                        <li>
+                            <i data-lucide="map-pin"></i>
+                            <span>Seba Central, Kağıthane, İstanbul</span>
+                        </li>
+                        <li>
+                            <i data-lucide="phone"></i>
+                            <span>+90 212 320 15 70</span>
+                        </li>
+                        <li>
+                            <i data-lucide="mail"></i>
+                            <span>alpina@alpinashipping.com</span>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 data-i18n="footer_quickmenu">Hızlı Menü</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html" data-i18n="nav_home">Ana Sayfa</a></li>
+                        <li><a href="reports.html" data-i18n="nav_reports">Market Raporları</a></li>
+                        <li><a href="team.html" data-i18n="nav_team">Ekibimiz</a></li>
+                        <li><a href="contact.html" data-i18n="nav_contact">İletişim</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright" data-i18n="copyright">
+                &copy; 2026 Alpina Denizcilik ve Ticaret Ltd. Şti. Tüm hakları saklıdır.
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="js/i18n.js"></script>
+    <script>lucide.createIcons();</script>
+</body>
+
+</html>
